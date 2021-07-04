@@ -1,0 +1,60 @@
+@import "@primer/css/index.scss";
+
+.desktop-item {
+    @media screen and (min-width: 820px){
+        display: flex;
+    }
+
+    @media screen and (max-width: 800px){
+        display: none;
+    }
+}
+
+.space {
+    margin-top: 15px;
+}
+
+.spread-input {
+    min-width: 249px;
+}
+
+.btn.btn-invisible {
+    font-size: 13px;
+}
+
+.btn-link {
+    margin-left: 6px;
+    margin-bottom: 12px;
+}
+
+.meta {
+    display: inline-block;
+}
+
+.green-circle {
+    height: 14px;
+    width: 14px;
+    margin-top: 20;
+    border-radius: 50%;
+    background-color: #00B4AB;
+    margin-right: 30px;
+}
+
+span > .h6 {
+    padding-left: 18px;
+    margin-top: -20px;
+}
+
+h6 > .text-link {
+    color: black;
+
+    :hover {
+        transition: ease-in color .4s;
+        color: blue;
+        cursor: pointer;
+    }
+}
+
+.Layout-main {
+    background-color: #f6f8fa;
+}
